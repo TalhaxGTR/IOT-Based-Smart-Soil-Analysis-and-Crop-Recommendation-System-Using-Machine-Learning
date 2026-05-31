@@ -253,4 +253,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ## 👤 Author
 
 Final Year Project (FYP) — Department of Computer Science / Electrical Engineering  
-*Smart Soil Analysis System using IoT & Machine Learning*
+*IOT Based Smart Soil Analysis and Crop Recommendation System Using Machine Learning*
