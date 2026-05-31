@@ -1,4 +1,4 @@
-# ── Python ─────────────────────────────────────────────────
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -6,41 +6,55 @@ __pycache__/
 .Python
 *.egg
 *.egg-info/
-dist/
 build/
+dist/
 .eggs/
 *.whl
 
-# ── Virtual environments ────────────────────────────────────
+# Virtual Environments
 .venv/
 venv/
 env/
 ENV/
+.env
+.envrc
 
-# ── Jupyter ─────────────────────────────────────────────────
+# Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# ── Large model files (tracked via Git LFS or not at all) ──
-# Comment out if you want to push models to GitHub
-# models/*.pkl
-
-# ── OS / editor ────────────────────────────────────────────
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# ── Streamlit secrets ──────────────────────────────────────
+# Streamlit
 .streamlit/secrets.toml
 
-# ── Arduino build artifacts ────────────────────────────────
-hardware/ESP32_code/build/
-hardware/ESP32_code/.pio/
-hardware/ESP32_code/.vscode/
+# ML / Models
+# models/*.pkl
 
-# ── Misc ────────────────────────────────────────────────────
+# VS Code / IDE
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs / Temp
 *.log
 *.tmp
+tempCodeRunnerFile.py
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Arduino / ESP32
+hardware/ESP32_code/build/
+hardware/ESP32_code/.pio/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
